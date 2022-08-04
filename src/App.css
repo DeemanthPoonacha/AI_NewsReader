@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.main{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+/* .card-img-top{
+  height: 180px;
+} */
+.row{
+  padding: 10px;
+}
+.card-text{
+  font-size: 14px;
+}
+.space{
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: space-between;
+}
+/* 
+.grid-main{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.grid-child{
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.news-image{
+  width: 100%;
+} */
