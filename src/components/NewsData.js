@@ -5,7 +5,7 @@ import moment from 'moment';
 import alanBtn from '@alan-ai/alan-sdk-web';
 
 export default function NewsData() {
-    const ALAN_KEY = 'bbd27d33d3c2e837fba261de43d0db1d2e956eca572e1d8b807a3e2338fdd0dc/stage';
+    const ALAN_KEY = process.env.ALAN_KEY;
     const [newsData, setNewsData] = useState([]);
     const [selectedOption, setSelectOption] = useState('');
     const getAllNews = async() => { 
